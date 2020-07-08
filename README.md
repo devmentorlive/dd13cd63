@@ -13,6 +13,13 @@ yarn && yarn start
 
 That is it, a browser will open with the project running with webpack dev server, which is included in create-react-app. Open the directory in your favorite code editor (I highly recommend Visual Studio Code) and get to work!
 
+If you will be using git to track your changes, make sure to change your remote:
+
+```
+git remote remove origin
+git remote add YOUR_REMOTE_HERE
+```
+
 Mark Tellez
 Chief Mentor
 DevmentorLive
