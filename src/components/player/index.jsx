@@ -9,7 +9,7 @@ export default function Player({ skin }) {
     h: 32,
     stepCount: 3,
   };
-  const { dir, step, walk, directions } = useWalk(data.stepCount);
+  const { dir, step, walk, directions, position } = useWalk(data.stepCount);
 
   useKeyPress((e) => {
     const dir = e.key.replace("Arrow", "").toLowerCase();
@@ -23,6 +23,7 @@ export default function Player({ skin }) {
       data={data}
       step={step}
       dir={dir}
+      position={position}
     />
   );
 }
