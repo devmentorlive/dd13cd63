@@ -1,7 +1,7 @@
 body {
   font-family: "AirbnbCerealBook", sans-serif;
   font-size: 16px;
-  background-color: #f1f1f1;
+  background-color: #000000;
   color: #312b2b;
   opacity: 0.8;
 }
@@ -10,7 +10,8 @@ body {
   box-sizing: border-box;
   margin: 1rem auto;
   padding: 2rem;
-  max-width: 1000px;
+  width: 1000px;
+  height: 1000px;
   background-color: white;
   font-size: 1rem;
 }
