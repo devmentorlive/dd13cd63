@@ -1,4 +1,4 @@
-const actors = {
+const characters = {
   m1: {
     w: 32,
     h: 32,
@@ -6,4 +6,4 @@ const actors = {
   },
 };
 
-export default actors;
+export default characters;

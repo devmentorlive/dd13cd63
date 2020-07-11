@@ -4,7 +4,7 @@ import Player from "./player";
 export default function App() {
   return (
     <>
-      <Player actor="m1" />
+      <Player skin="m1" />
     </>
   );
 }

@@ -1,11 +1,11 @@
 import React from "react";
 import Actor from "../actor";
-import actors from "../sprites/actors";
+import characters from "../actor/characters";
 import useKeyPress from "../hooks/use-key-press";
 import useWalk from "../hooks/use-walk";
 
-export default function Player({ actor }) {
-  const { dir, step, walk, directions } = useWalk(actors[actor].stepCount);
+export default function Player({ skin }) {
+  const { dir, step, walk, directions } = useWalk(characters[skin].stepCount);
 
   useKeyPress((e) => {
     const dir = e.key.replace("Arrow", "").toLowerCase();
@@ -15,8 +15,8 @@ export default function Player({ actor }) {
 
   return (
     <Actor
-      sprite={`/sprites/actors/${actor}.png`}
-      data={actors[actor]}
+      sprite={`/sprites/characters/${skin}.png`}
+      data={characters[skin]}
       step={step}
       dir={dir}
     />

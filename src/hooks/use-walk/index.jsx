@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function useWalk(maxStep) {
   const [dir, setDir] = useState(0);
