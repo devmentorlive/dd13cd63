@@ -7,6 +7,9 @@ export default function Actor({ sprite, data, step = 0, dir = 2 }) {
   return (
     <Sprite
       image={sprite}
+      style={{
+        position: "absolute",
+      }}
       data={{
         x: step * w,
         y: dir * h,
