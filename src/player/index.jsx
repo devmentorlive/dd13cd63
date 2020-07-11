@@ -5,11 +5,10 @@ import useKeyPress from "../hooks/use-key-press";
 import useWalk from "../hooks/use-walk";
 
 export default function Player({ actor }) {
-  const { dir, step, walk, directions } = useWalk(actors[actor].steps);
+  const { dir, step, walk, directions } = useWalk(actors[actor].stepCount);
 
   useKeyPress((e) => {
     const dir = e.key.replace("Arrow", "").toLowerCase();
-
     if (directions.hasOwnProperty(dir)) walk(directions[dir]);
     e.preventDefault();
   }, []);

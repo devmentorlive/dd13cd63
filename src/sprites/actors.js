@@ -1,9 +1,9 @@
-const tiles = {
+const actors = {
   m1: {
     w: 32,
     h: 32,
-    steps: 3,
+    stepCount: 3,
   },
 };
 
-export default tiles;
+export default actors;
