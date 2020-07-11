@@ -11,12 +11,8 @@ export default function useWalk(maxStep) {
   };
 
   function walk(facing) {
-    setDir((prevDir) => {
-      setStep((prevStep) =>
-        prevDir === dir ? (prevStep < maxStep - 1 ? prevStep + 1 : 0) : 0
-      );
-      return facing;
-    });
+    setDir(facing);
+    setStep((prev) => (prev < maxStep - 1 ? prev + 1 : 0));
   }
 
   return {
