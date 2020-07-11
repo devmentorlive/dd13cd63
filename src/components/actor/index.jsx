@@ -1,6 +1,6 @@
 import React from "react";
 
-import Sprite from "../sprites/sprite";
+import Sprite from "../sprite";
 
 export default function Actor({ sprite, data, step = 0, dir = 2 }) {
   const { h, w } = data;
