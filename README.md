@@ -1,6 +1,6 @@
 # [RPG GAME] Animate and Move a Character Sprite (Custom React Hooks)
 
-In this screencast we will be using a couple of sprite sets to display a player character on the screen, and then we will build some custom React hooks to animate that character around a simple grassland. All of this lays the groundwork for expanding this series later.
+In this screencast we will be using a couple of sprite sets to display a player character on the screen, and then we will build some custom React hooks to animate that character around a simple grassland. All of this lays the groundwork for expanding this series later into towns, items, and combat!
 
 This repository contains the code that I based an episode of DevmentorLive on. You can find the episode at: [[RPG GAME] Animate and Move a Character Sprite (Custom React Hooks))](https://devmentor.live/screencasts/rpg-game-animate-and-move-a-character-sprite-custom-react-hooks)
 
@@ -16,6 +16,15 @@ git clone https://github.com/devmentorlive/dd13cd63.git react-rpg
 cd react-rpg
 git checkout start-here
 ```
+
+Happy Hacking!
+
+## Repo Branches
+
+- [Start Here](https://github.com/devmentorlive/dd13cd63/tree/start-here)
+- [Animate Walk](https://github.com/devmentorlive/dd13cd63/tree/walk)
+- [Basic Zone](https://github.com/devmentorlive/dd13cd63/tree/zone)
+- [Movement](https://github.com/devmentorlive/dd13cd63/tree/movement)
 
 ## Get Live, Affordable JavaScript Mentorship
 
