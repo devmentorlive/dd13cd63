@@ -14,14 +14,13 @@ This projects uses sprites from these awesome creators:
 ```
 git clone https://github.com/devmentorlive/dd13cd63.git react-rpg
 cd react-rpg
-git checkout start-here
 ```
 
 Happy Hacking!
 
 ## Repo Branches
 
-- [Start Here](https://github.com/devmentorlive/dd13cd63/tree/start-here)
+- [Start Here](https://github.com/devmentorlive/dd13cd63)
 - [Animate Walk](https://github.com/devmentorlive/dd13cd63/tree/walk)
 - [Basic Zone](https://github.com/devmentorlive/dd13cd63/tree/zone)
 - [Movement](https://github.com/devmentorlive/dd13cd63/tree/movement)
