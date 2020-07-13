@@ -22,7 +22,6 @@ Happy Hacking!
 
 - [Start Here](https://github.com/devmentorlive/dd13cd63)
 - [Animate Walk](https://github.com/devmentorlive/dd13cd63/tree/walk)
-- [Basic Zone](https://github.com/devmentorlive/dd13cd63/tree/zone)
 - [Movement](https://github.com/devmentorlive/dd13cd63/tree/movement)
 
 ## Get Live, Affordable JavaScript Mentorship
