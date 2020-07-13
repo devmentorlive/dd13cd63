@@ -1,14 +1,11 @@
 import React from "react";
 
-export default function Sprite({ image, data, position, style }) {
+export default function Sprite({ image, data }) {
   const { y, x, h, w } = data;
   return (
     <div
       style={{
-        ...style,
-        position: "absolute",
-        top: position.y,
-        left: position.x,
+        display: "inline-block",
         height: `${h}px`,
         width: `${w}px`,
         backgroundImage: `url(${image})`,
